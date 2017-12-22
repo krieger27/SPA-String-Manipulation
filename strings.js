@@ -1,16 +1,24 @@
+let userInput= document.getElementById("userInput");
+let output= document.getElementById("output");
+let theBtn = document.getElementById("btn");
+
+function toTheDom (value){
+    output.innerHTML = value;
+}
+
 function reversal() {
     
     }
     
-    function alphabits() {
+function alphabits() {
     
     }
     
-    function palindrome() {
+function palindrome() {
     
     }
     
-    var testString = "";
+ var testString = "";
     reversal(testString);
     alphabits(testString);
     palindrome(testString);
